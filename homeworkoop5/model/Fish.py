@@ -12,7 +12,9 @@ class Fish(Animal):
 
     @overrides
     def makes_sound(self):
+        super().makes_sound()
         print('‘Fish is not making a sound')
+
     @overrides
     def moves(self):
         print('Im swimming')
