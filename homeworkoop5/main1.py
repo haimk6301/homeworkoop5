@@ -22,7 +22,7 @@ if __name__ == '__main__':
     bird.moves()
     print()
 
-    fish = Fish('Vin Diesel', 1, 'Male', 0.01, 'Betta', 500, 'blue')
+    fish = Fish('Vin Diesel', 1, 'Male', 0.01, 'Betta', 7, 'blue')
     fish.print_animal()
     fish.makes_sound()
     fish.moves()
