@@ -8,16 +8,19 @@ if __name__ == '__main__':
     animal.print_animal()
     animal.makes_sound()
     animal.moves()
+    print()
 
     dog = Dog('Akita', 2, 'female', 45, 'Akita', 0.5, 'loud')
     dog.print_animal()
     dog.makes_sound()
     dog.moves()
+    print()
 
     bird = Bird('Packo', 5, 'Male', 0.6, 'Jako', 0.5, '0.05')
     bird.print_animal()
     bird.makes_sound()
     bird.moves()
+    print()
 
     fish = Fish('Vin Diesel', 1, 'Male', 0.01, 'Betta', 500, 'blue')
     fish.print_animal()
